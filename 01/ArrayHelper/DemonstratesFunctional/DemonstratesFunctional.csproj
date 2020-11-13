@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArrayHelper\ArrayHelper.csproj" />
+    <ProjectReference Include="..\RectangleHelper\RectangleHelper.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="myAssembly1">
+      
+    </Reference>
+  </ItemGroup>
+
+</Project>

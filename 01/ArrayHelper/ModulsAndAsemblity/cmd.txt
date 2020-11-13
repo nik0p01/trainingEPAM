@@ -1,0 +1,9 @@
+csc /t:module Rectangle.cs
+
+sn -k keyPair.snk
+
+
+al Rectangle.netmodule SortArray.netmodule SumPositiveElements.netmodule /out:myAssembly1.dll /target:lib /keyfile:KeyPair.snk
+
+
+gacutil /i myAssembly1.dll
